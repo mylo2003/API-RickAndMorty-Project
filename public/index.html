@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" href="assets/img/portal.png"/>
     <link rel="stylesheet" href="css/index.css"/>
-    <title>Rick Generator</title>
+    <title>Rick and Morty Generator</title>
   </head>
   <body class="h-[100vh] bg-imagen2 bg-cover relative">
     <img class="w-32 absolute bottom-10 right-0 animate-floating md:w-64 md:bottom-10 lg:w-64 lg:bottom-10" src="assets/img/picklerick.png" alt="">
+    <img class="w-32 absolute -z-10 rotate-180 top-0 -left-5 md:w-64 lg:w-64" src="assets/img/ricksaliendo.png" alt="">
     <img class="w-80 mx-auto" src="assets/img/Rick-and-Morty.png" alt="">
     <main class="max-w-7xl mx-auto">
       <div class="h-full flex flex-col items-center gap-5 md:flex-row md:justify-center lg:flex-row lg:justify-center lg:items-center">
         <div class="min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-xl lg:h-[400px]">  
-          <img class="mx-auto" id="img-random">
+          <img class="mx-auto w-[288px] h-[288px] rounded-lg" id="img-random">
+          <div class="ml-5 mt-5 text-white font-semibold">
+            <h2 class="text-teal-400">Nombre: <span class="text-white font-normal" id="name">Rick Sanchez</span></h2>
+            <h3 class="text-green-400">Status: <span class="text-white font-normal" id="status"></span></h3>
+          </div>
         </div>
-        <div class="hidden min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-xl md:flex lg:flex lg:h-[400px]">  
-          <img class="mx-auto" id="img-random">
+        <div class="hidden min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-xl md:block lg:block lg:h-[400px]">  
+          <img class="mx-auto w-[288px] h-[288px] rounded-lg" id="img-random2">
+          <div class="ml-5 mt-5 text-white font-semibold">
+            <h2 class="text-teal-400">Nombre: <span class="text-white font-normal" id="name2"></span></h2>
+            <h3 class="text-green-400">Status: <span class="text-white font-normal" id="status2"></span></h3>
+          </div>
         </div>
-        <div class="hidden min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-x lg:flex lg:h-[400px]">  
-          <img class="mx-auto" id="img-random">
+        <div class="hidden min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-x lg:block lg:h-[400px]">  
+          <img class="mx-auto w-[288px] h-[288px] rounded-lg" id="img-random3">
+          <div class="ml-5 mt-5 text-white font-semibold">
+            <h2 class="text-teal-400">Nombre: <span class="text-white font-normal" id="name3"></span></h2>
+            <h3 class="text-green-400">Status: <span class="text-white font-normal" id="status3"></span></h3>
+          </div>
         </div>
       </div>
       <div class="w-44 mt-10 mx-auto">

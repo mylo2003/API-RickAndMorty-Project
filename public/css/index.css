@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .fixed {
   position: fixed;
 }
@@ -594,6 +598,38 @@ video {
 
 .left-\[500px\] {
   left: 500px;
+}
+
+.-left-10 {
+  left: -2.5rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.-bottom-10 {
+  bottom: -2.5rem;
+}
+
+.-bottom-20 {
+  bottom: -5rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-bottom-0 {
+  bottom: -0px;
+}
+
+.-left-12 {
+  left: -3rem;
+}
+
+.-left-5 {
+  left: -1.25rem;
 }
 
 .-z-10 {
@@ -672,6 +708,14 @@ video {
   margin-right: 0.5rem;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -732,6 +776,14 @@ video {
   height: 45px;
 }
 
+.h-\[288pc\] {
+  height: 288pc;
+}
+
+.h-\[288px\] {
+  height: 288px;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -752,6 +804,18 @@ video {
   width: 100%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[288px\] {
+  width: 288px;
+}
+
 .min-w-80 {
   min-width: 20rem;
 }
@@ -762,6 +826,16 @@ video {
 
 .max-w-80 {
   max-width: 20rem;
+}
+
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
@@ -822,6 +896,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .bg-black\/80 {
   background-color: rgb(0 0 0 / 0.8);
 }
@@ -879,6 +957,10 @@ video {
   font-weight: 600;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .text-slate-900 {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -887,6 +969,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-teal-400 {
+  --tw-text-opacity: 1;
+  color: rgb(45 212 191 / var(--tw-text-opacity));
+}
+
+.text-green-400 {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity));
 }
 
 .shadow-md {
@@ -997,6 +1089,10 @@ video {
     bottom: 2.5rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1079,6 +1175,10 @@ video {
 
   .lg\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
