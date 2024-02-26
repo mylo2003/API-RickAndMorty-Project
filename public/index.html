@@ -2,12 +2,34 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="" />
-    <link rel="stylesheet" href="css/index.css" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="assets/img/portal.png"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>Rick Generator</title>
   </head>
-  <body>
-    <h1 class="text-blue-500">Hola mundo</h1>
+  <body class="h-[100vh] bg-imagen2 bg-cover relative">
+    <img class="w-32 absolute bottom-10 right-0 animate-floating md:w-64 md:bottom-10 lg:w-64 lg:bottom-10" src="assets/img/picklerick.png" alt="">
+    <img class="w-80 mx-auto" src="assets/img/Rick-and-Morty.png" alt="">
+    <main class="max-w-7xl mx-auto">
+      <div class="h-full flex flex-col items-center gap-5 md:flex-row md:justify-center lg:flex-row lg:justify-center lg:items-center">
+        <div class="min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-xl lg:h-[400px]">  
+          <img class="mx-auto" id="img-random">
+        </div>
+        <div class="hidden min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-xl md:flex lg:flex lg:h-[400px]">  
+          <img class="mx-auto" id="img-random">
+        </div>
+        <div class="hidden min-w-80 max-w-80 h-96 backdrop-blur-sm bg-gray-900/30 rounded-xl shadow-x lg:flex lg:h-[400px]">  
+          <img class="mx-auto" id="img-random">
+        </div>
+      </div>
+      <div class="w-44 mt-10 mx-auto">
+        <button class="bg-white px-4 py-3 rounded-2xl text-xl shadow-md text-slate-900 font-semibold transition-all ease-in-out duration-200 hover:bg-teal-400 hover:text-white hover:scale-95 active:bg-blue-300">Get Character</button>
+      </div>
+    </main>
+    <footer class="h-[45px] fixed bottom-0 left-0 right-0 text-center bg-black/80 flex justify-center items-center">
+      <h3 class="text-base text-white text-semibold mr-2">Made by Camilo Mora </h3>
+      <a href="https://github.com/mylo2003" target="_blank"><svg class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="40px" height="40px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(4,4)"><path d="M32,10c-12.15,0 -22,9.85 -22,22c0,12.15 9.85,22 22,22c12.15,0 22,-9.85 22,-22c0,-12.15 -9.85,-22 -22,-22zM32,14c9.941,0 18,8.059 18,18c0,8.23871 -5.54128,15.16934 -13.0957,17.30664c-0.0928,-0.19124 -0.15645,-0.40072 -0.15039,-0.63867c0.031,-1.209 0,-4.03041 0,-5.06641c0,-1.778 -1.125,-3.03906 -1.125,-3.03906c0,0 8.82422,0.09959 8.82422,-9.31641c0,-3.633 -1.89844,-5.52539 -1.89844,-5.52539c0,0 0.9973,-3.87844 -0.3457,-5.52344c-1.505,-0.163 -4.20056,1.43755 -5.35156,2.18555c0,0 -1.82342,-0.74805 -4.85742,-0.74805c-3.034,0 -4.85742,0.74805 -4.85742,0.74805c-1.151,-0.748 -3.84656,-2.34755 -5.35156,-2.18555c-1.342,1.645 -0.3457,5.52344 -0.3457,5.52344c0,0 -1.89844,1.89044 -1.89844,5.52344c0,9.416 8.82422,9.31836 8.82422,9.31836c0,0 -1.00476,1.14381 -1.10547,2.7832c-0.58969,0.20793 -1.39349,0.45313 -2.16016,0.45313c-1.85,0 -3.25548,-1.79691 -3.77148,-2.62891c-0.508,-0.821 -1.54948,-1.50977 -2.52148,-1.50977c-0.64,0 -0.95312,0.3215 -0.95312,0.6875c0,0.366 0.89823,0.62083 1.49023,1.29883c1.248,1.43 1.22488,4.64648 5.67188,4.64648c0.5258,0 1.47056,-0.1211 2.22461,-0.22461c-0.00417,1.00955 -0.0159,1.97778 0,2.59766c0.00586,0.23869 -0.05897,0.44894 -0.15234,0.64063c-7.55349,-2.1379 -13.09375,-9.0686 -13.09375,-17.30664c0,-9.941 8.059,-18 18,-18z"></path></g></g></svg></a>
+    </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
